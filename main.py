@@ -37,6 +37,6 @@ TOKEN = os.getenv('DISCORD_TOKEN')
 if TOKEN is None:
     print("\033[31mLooks like you haven't properly set up a Discord token environment variable in the `.env` file. (Secrets on replit)\033[0m")
     print("\033[33mNote: If you don't have a Discord token environment variable, you will have to input it every time. \033[0m")
-    TOKEN = input("Please enter your Discord token: ")
+    TOKEN = input("MTI0NzE5ODU2MTIxMzYxMjA0Mg.G1YGmX.TkiuAwVs-N1YXRasVKJid_fhZaQR2_hQ7bs08M")
 
 bot.run(TOKEN, reconnect=True)
